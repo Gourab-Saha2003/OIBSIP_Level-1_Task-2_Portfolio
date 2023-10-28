@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Gourab - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Calistoga&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <style></style>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="left">Gourab Saha</div>
+        <div class="righ">
+          <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Skill">Skills</a></li>
+            <li><a href="#Project">Projects</a></li>
+            <li><a href="#Contact">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="Home">
+        <div class="leftSection">
+          Hi, My name is <span class="name">Gourab</span> <br />
+          and i am a Web <br />
+          Developer <br />I learn
+          <span id="element" class="name"></span>
+        </div>
+        <div class="rightSection">
+          <img src="/image/developer_img.png" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section id="About">
+        <div class="about container">
+          <div class="col-left">
+            <div class="about-img">
+              <img src="/image/my pic 2.jpeg" alt="img" />
+            </div>
+          </div>
+          <div class="col-right">
+            <h1 class="title">About Me</h1>
+            <h2>Web Developer</h2>
+            <p>
+              Hello, My name is Gourab Saha. I am from Balurghat. I am a BCA 3rd
+              year student studying at Maulana Abul Kalam Azad University of
+              Technology. I am very passionate about Web Development. I learn
+              HTML, CSS and javaScript. my hobby are play cricket, batminton,
+              travelling etc.
+            </p>
+            <a href="#"><button>Download Resume</button></a>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section id="Skills">
+        <h1>My Skills</h1>
+        <div id="skill">
+          <div class="box">
+            <img src="/image/brain.png" alt="brain" />
+            <h2>The user is first</h2>
+            <p>
+              When I start to make a wireframe, I switch on an user mind and see
+              the problem to resolve from gis perpecrive.
+            </p>
+          </div>
+          <div class="box">
+            <img src="/image/computer.png" alt="computer" />
+            <h2>Re-useful code</h2>
+            <p>
+              When I write HTML, CSS and javaScript my effort it's on make the
+              code be reuseful and simple. That's why I follow the modular
+              structure for the styles.
+            </p>
+          </div>
+          <div class="box">
+            <img src="/image/book.png" alt="book" />
+            <h2>Never stop learning</h2>
+            <p>
+              I think this is the basis for every designer. I like the
+              challenges and make new thins, so it implies to never stop
+              learning new things.
+            </p>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section class="projects" id="Project">
+        <h2 class="projects-title">Some of my Recent Projects</h2>
+        <div class="projects-container">
+          <div class="project-container project-card">
+            <img
+              src="/image/food_delivery.png"
+              alt="expense-tracker"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">Food Delivery</h3>
+            <p class="project-details">
+              Online food ordering is the process of ordering food, for delivery
+              or pickup, from a website. Through this website people can easily
+              book their food.
+            </p>
+            <a href="#" target="_blank" class="project-link">Check it Out</a>
+          </div>
+          <div class="project-container project-card">
+            <img
+              src="/image/ngo.png"
+              alt="netflic-clone"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">NGO Camp</h3>
+            <p class="project-details">
+              This website solidifies your professionalism when soliciting
+              support. Through this website people can easily donat for poor
+              childs.
+            </p>
+            <a href="#" target="_blank" class="project-link">Check it Out</a>
+          </div>
+          <div class="project-container project-card">
+            <img
+              src="/image/travel_agency.png"
+              alt="greeny-earth"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">Travel Agency</h3>
+            <p class="project-details">
+              With this website people can easily book treir travel Agency. This
+              may very helpful for the people. Through this easily book their
+              room tickets.
+            </p>
+            <a href="#" target="_blank" class="project-link">Check it Out</a>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section id="Contact">
+        <h2>Get In Touch With Me</h2>
+        <div class="contact-form-container">
+          <div class="contact-form">
+            <form action="https://formspree.io/f/xleyjadn" method="post">
+              <div class="form-control">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="sender-name"
+                  placeholder="Enter Your Name"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="form-control">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="sender-email"
+                  placeholder="Enter Your Email"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="form-control">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  cols="60"
+                  rows="10"
+                  placeholder="Enter Your Message"
+                  name="message"
+                  class="input-field"
+                  required
+                ></textarea>
+              </div>
+              <input
+                type="submit"
+                value="Submit"
+                id="submit-btn"
+                class="submit-btn"
+              />
+            </form>
+          </div>
+        </div>
+
+        <div class="socials">
+          <a href="https://twitter.com/home" target="_blank"
+            ><img
+              src="/image/icons8-twitter-circled.gif"
+              alt="Twitter"
+              loading="lazy"
+              class="socicon"
+          /></a>
+          <a href="https://www.instagram.com/" target="_blank"
+            ><img
+              src="/image/icons8-instagram.gif"
+              alt="Instagram"
+              loading="lazy"
+              class="socicon"
+          /></a>
+          <a
+            href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit"
+            target="_blank"
+            ><img
+              src="/image/icons8-linkedin.gif"
+              alt="Linkedin"
+              loading="lazy"
+              class="socicon"
+          /></a>
+          <a href="https://github.com/Gourab-Saha2003" target="_blank"
+            ><img src="/image/icons8-github.gif" alt="Github" class="socicon"
+          /></a>
+        </div>
+      </section>
+
+      <footer>
+        <p class="copy">&copy; Copyright 2023</p>
+        <p class="copy">
+          Built with &#x2661; by
+          <a href="https://twitter.com/home" target="_blank"
+            >Gourab Saha (Gourab)</a
+          >
+        </p>
+        <p>
+          Contact No:- 815997**** &nbsp; &nbsp; &nbsp; &nbsp; Email-Id:-
+          gourabsaha2062003@gmail.com
+        </p>
+      </footer>
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["HTML.", "CSS.", "java script."],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
